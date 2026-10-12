@@ -1,0 +1,16 @@
+{
+  "n_samples": 1000000,
+  "n_labels_used": 4800,
+  "n_labels_total": 4800,
+  "mean_features_detected": 11.620538,
+  "mean_fraction_not_detected": 0.16996157142857138,
+  "frac_samples_no_feature_detected": 0.0,
+  "camera": {
+    "width": 640,
+    "height": 480,
+    "focal_px": 400,
+    "pixel_noise_px": 0.5,
+    "min_range_m": 8.0
+  },
+  "att_jitter_deg": 0.0
+}
