@@ -74,10 +74,10 @@ python particle_filter_ann.py --help
 
 By default, generated artifacts are written under `outputs/`:
 
-- `outputs/data/` — compressed synthetic dataset, approach trajectory, and ANN error samples used by the particle filter.
-- `outputs/models/` — trained ANN checkpoint.
-- `outputs/figures/` — generated trajectory, training, and estimation-error plots.
-- `outputs/results/` — dataset statistics, ANN metrics, and particle-filter result arrays.
+- `outputs/data/` — compressed synthetic dataset, approach trajectory, ANN error samples, XGBoost error samples.
+- `outputs/models/` — trained ANN and XGBoost checkpoints.
+- `outputs/figures/` — generated trajectory, training, estimation-error plots, and comparison plots.  
+- `outputs/results/` — dataset statistics, ANN metrics, XGBoost metrics, particle-filter result arrays, and bundle adjustment result arrays.
 
 These files are created when you run the lab and are not required as input beforehand. Use a different `--out` path to keep separate runs side by side.
 
