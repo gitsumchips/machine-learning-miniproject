@@ -52,12 +52,12 @@ mkdir outputs
 python3 main.py
 ```
 
-Alternatively, you can train the models via Google Colab using a T4 GPU runtime.
-```
-from google.colab import drive
-drive.mount('/content/drive')
-!python3 main.py --out /content/drive/MyDrive/<insert name of desired output folder>
-```
+Alternatively, you can train the models via Google Colab using a T4 GPU runtime. This is what the file `ML_miniproj_colab_file.ipynb` does.
+1. Download and open the colab file in your drive.
+2. Connect to a T4 GPU runtime.
+3. Create a folder "ML_miniproj_outputs" in your main drive.
+4. Upload all the 6 python files in `/src` to the runtime.
+5. Run the colab file.
 
 ### Useful options
 
