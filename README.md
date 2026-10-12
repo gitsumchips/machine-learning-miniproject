@@ -41,11 +41,11 @@ The core dataset, ANN, and particle-filter stages do not require a downloaded da
 ## HOW TO RUN
 In a local Linux environment, run the following:
 ```
-git pull https://github.com/gitsumchips/machine-learning-miniproject
+git clone https://github.com/gitsumchips/machine-learning-miniproject
 python3 -m venv machine-learning-miniproject
 cd machine-learning-miniproject
 source bin/activate
-pip install torch scikit-learn xgboost matplotlib
+pip install torch scikit-learn xgboost matplotlib numpy
 cd src
 rm -rf outputs
 mkdir outputs
